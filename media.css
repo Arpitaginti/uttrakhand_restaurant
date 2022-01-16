@@ -1,0 +1,151 @@
+
+@media only screen and (max-width:1180px){
+    .head{
+        font-size: 80% ;
+    }
+   }
+
+
+
+@media only screen and (max-width:980px){
+    .head{
+        font-size: 50% ;
+    }
+
+    .head1 img{
+        height: 90px;}
+
+
+        .write{
+            font-size: 160%;
+        }
+
+}
+
+
+
+@media only screen and (max-width:740px){
+    .head{
+        font-size: 45% ;
+        margin-top: 30px;
+
+    }
+
+    .head li{
+        padding-top: 0;
+    }
+
+    .head1 img{
+        height: 75px;
+    }
+
+    .write{
+        font-size: 120%;
+    }
+
+}
+
+
+@media only screen and (max-width:620px){
+    body{
+        width: 100%;
+    }
+    .head{ 
+        display: none;
+    }
+
+    .menu button{
+        padding: 7px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(190, 47, 95);
+        background: transparent;
+        border-radius: 6px;
+    }
+    .menu button:hover{
+        background: linear-gradient(rgba(46, 212, 12, 0.3) , rgb(24, 132, 219,0.6));
+    }
+
+    .change{
+        background-image: linear-gradient(rgba(63, 109, 155, 1),rgba(81, 46, 116, 1));
+        height: 70vh;
+        width: 70%;
+        z-index: 100;
+        overflow: hidden;
+        margin:0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        overflow: hidden;
+        padding: 0;
+        margin-right: 10%;
+
+    }
+    .head li{
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 25px;
+        justify-content: center;
+        cursor: pointer;
+
+    }
+
+    .head li a
+{
+    text-decoration: none;
+    color: rgb(233, 74, 108);
+
+
+}
+    .head li a:hover {
+        color: rgb(93, 168, 212);
+        border-bottom: 4px solid rgb(52, 199, 204);
+    }
+
+    .menu{
+        float: left;
+        display: block;
+        padding-top: 25px;
+    }
+    .write{
+        z-index: 0;
+    }
+
+   .head1 img{
+    height: 70px;
+}
+
+}
+
+@media only screen and (max-width:400px){
+    body{
+        width: 100%;
+        background-repeat: unset;
+        background-size: 100vh no-repeat;
+    }
+    .write{
+        font-size: 65%;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+

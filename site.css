@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-transform: uppercase;
+}
+
+body{
+    font-size: 40px;
+    background-image:linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)), url(body.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arvo', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Flamenco', cursive;
+    overflow: hidden;
+}
+
+
+.main{
+    max-width: 1180px;
+    overflow-x: hidden;
+    padding: 9px 20px;
+    margin : 0 auto;
+}
+
+.head{
+    float: left;
+    margin-top: 40px;
+    font-size: 100%;
+}
+
+.head li{
+    display: inline-block;
+    list-style: none;
+    padding: 7px 20px ;
+    
+}
+
+.head li a
+{
+    text-decoration: none;
+    color: rgb(233, 74, 108);
+
+}
+
+
+.head1{
+    float: right;
+    margin: 0px auto ;
+}
+
+.head1 img{
+    height: 120px;
+}
+
+
+.head li a:hover {
+    color: rgb(93, 168, 212);
+    border-bottom: 4px solid rgb(52, 199, 204);
+}
+
+
+.write{
+    max-width: 1180px;
+    color: whitesmoke;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 200%;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.menu{
+    float: left;
+    display: none
+}
